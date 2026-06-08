@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  <PackageId>ProcLog.Civir.Domain</PackageId>
+  <Version>0.0.1</Version>
+  <Authors>Juan Manuel Carreño</Authors>
+  <Company>Procesos Logicos</Company>
+  <Description>Libreria de definiciones para el dominio de Civir.</Description>
+  <PackageTags>libreria;dotnet</PackageTags>
+  <RepositoryUrl>https://github.com/juacar01/Civir.Domain.git</RepositoryUrl>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+  </PropertyGroup>
+
+</Project>
