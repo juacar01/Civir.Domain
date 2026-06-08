@@ -1,8 +1,9 @@
+using Civir.Domain.Common;
+
 namespace Civir.Domain.Entities
 {
-    public class User
+    public class User: BaseDomainModel
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
     }
