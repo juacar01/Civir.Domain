@@ -7,7 +7,7 @@
 
   <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   <PackageId>ProcLog.Civir.Domain</PackageId>
-  <Version>0.0.1</Version>
+  <Version>0.0.3</Version>
   <Authors>Juan Manuel Carreño</Authors>
   <Company>Procesos Logicos</Company>
   <Description>Libreria de definiciones para el dominio de Civir.</Description>
@@ -16,5 +16,9 @@
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.8" />
+  </ItemGroup>
 
 </Project>
